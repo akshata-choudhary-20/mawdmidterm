@@ -1,0 +1,53 @@
+mcq answers
+1- (b) sqlite3
+2- (b) conn.commit()
+3- (b) 2
+4 -(c) NOne
+5- (c) 5
+6 -(b) uvicorn main.app --reload
+7 - (c) /docs
+8- (b) POST 
+9- (d) 422
+10- (c) 303
+
+
+
+
+
+
+
+
+
+
+#QB3
+CRUD stands for the following
+
+C - Create
+
+SQL Command: INSERT
+
+HTTP Method: POST
+
+R - Read
+
+SQL Command: SELECT
+
+HTTP Method: GET
+
+U - Update
+
+SQL Command: UPDATE
+
+HTTP Method: PUT (or PATCH)
+
+D - Delete
+
+SQL Command: DELETE
+
+HTTP Method: DELETE
+ #QC3 e
+ #Why do we redirect with status 303?
+It enforces the Post/Redirect/Get  pattern. Status 303  ensures the browser makes a subsequent GET request to /students rather than resubmitting the form data, preventing duplicate entries if the user refreshes the page.
+
+Which extra package must be installed for Form(...) to work?
+We need to  install python-multipart 
